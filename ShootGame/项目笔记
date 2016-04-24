@@ -2,9 +2,9 @@
 2.创建抽象父类FlyingObject
 	能够飞行的物体（英雄机，敌机，子弹等）都有如下属性
 	x,y坐标，width宽，height高，image图片 
-3.创建抽象接口Enemy
+3.创建抽象接口 Enemy
 	敌机都有分数，int getScore()方法
-4.创建抽象接口Award
+4.创建抽象接口 Award  
 	特定飞机获得奖励。双倍火力or加命
 5.新建类Airplane，表示敌机
 	继承FlyingObject 实现 Enemy+速度属性
